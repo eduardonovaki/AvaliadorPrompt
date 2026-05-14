@@ -1,0 +1,23 @@
+{
+  "classificacao_sentimento": [
+    {"input": "Adorei! Chegou antes do prazo e embalagem perfeita.", "output": "POSITIVO"},
+    {"input": "Veio com defeito e o suporte demorou 5 dias.", "output": "NEGATIVO"},
+    {"input": "Entrega rápida, mas qualidade do material decepcionou.", "output": "MISTO"},
+    {"input": "Produto conforme descrito, entrega no prazo.", "output": "NEUTRO"}
+  ],
+  "extracao_dados_produto": [
+    {"input": "Notebook Dell R$3500 com pixels mortos.", "output": "{\"produto\": \"Notebook Dell\", \"preco\": \"R$3500\", \"defeito\": \"pixels mortos\", \"categoria\": \"informatica\"}"},
+    {"input": "Tênis Nike R$599, solado colando.", "output": "{\"produto\": \"Tênis Nike\", \"preco\": \"R$599\", \"defeito\": \"solado colando\", \"categoria\": \"calcados\"}"},
+    {"input": "Fone JBL R$249, sem defeitos.", "output": "{\"produto\": \"Fone JBL\", \"preco\": \"R$249\", \"defeito\": null, \"categoria\": \"eletronicos\"}"}
+  ],
+  "geracao_resposta_suporte": [
+    {
+      "input": "Meu pedido #45231 não chegou, faz 10 dias.",
+      "output": "Olá! Lamentamos o transtorno com seu pedido #45231. Abrimos uma ocorrência prioritária e você receberá atualização em 24h. Caso não resolva, garantimos reenvio ou estorno. Obrigado pela paciência!"
+    },
+    {
+      "input": "Comprei um celular e veio sem carregador.",
+      "output": "Pedimos desculpas pelo inconveniente! Envie uma foto da caixa e da nota fiscal para analisarmos. Confirmado o problema, enviaremos o acessório em até 3 dias úteis sem custo."
+    }
+  ]
+}
