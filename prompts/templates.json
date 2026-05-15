@@ -1,7 +1,7 @@
 {
   "classificacao_sentimento": {
-    "zero_shot": "Classifique o sentimento do texto abaixo como POSITIVO, NEGATIVO, NEUTRO ou MISTO.\n\nTexto: {input}\n\nResposta:",
-    "few_shot": "Classifique o sentimento. Responda apenas com POSITIVO, NEGATIVO, NEUTRO ou MISTO.\n\n{exemplos}\n\nTexto: {input}\nResposta:",
+    "zero_shot": "Classifique o sentimento do texto abaixo como POSITIVO, NEGATIVO, NEUTRO.\n\nTexto: {input}\n\nResposta:",
+    "few_shot": "Classifique o sentimento. Responda apenas com POSITIVO, NEGATIVO, NEUTRO.\n\n{exemplos}\n\nTexto: {input}\nResposta:",
     "cot": "Classifique o sentimento do texto analisando passo a passo:\n{passos}\n\nTexto: {input}\n\nAnálise e classificação final:",
     "role": "Texto para análise: {input}"
   },
